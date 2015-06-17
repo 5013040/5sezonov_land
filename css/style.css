@@ -1,0 +1,128 @@
+@import url(reset.css);
+
+.wrap{
+    width:940px;
+    margin: auto;
+}
+.clear{
+    clear:both;
+}
+.header_topline{
+    background:rgb(95, 179, 29);
+    height:60px;
+    text-align:center;
+    
+    
+}
+ a.yellow_button{
+    color:#000;
+    font-size:14px;
+    font-weight: bolder;
+    background:rgb(240, 212, 7);
+    display: inline-block;
+    margin-top:10px;
+    border-radius: 1px;
+    box-shadow: inset rgb(206,180,6) 0 -1px 1px, inset 0 1px 1px #ffbf09, #cc7729 0 0 0 1px;
+    margin-left:13px;
+    text-transform: uppercase;
+}
+.header_topline a.btn:hover{
+    box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, 0 10px 10px -9px #000
+}
+.header_topline a.btn:active{
+    box-shadow: inset rgb(221,189,33) 0 -1px 1px, inset 0 1px 1px rgb(221,189,33), #cc7729 0 0 0 1px;
+}
+.logo{
+    width:100%;
+}
+.header_contact{
+    margin-top:20px;
+}
+.fa.fa-map-marker{
+    font-size:45px;
+    float:left;
+    padding:5px;
+    margin-top:-5px;
+}
+.adress{
+    padding:5px;
+    font-size:16px;
+    font-weight:bold;
+}
+.header_contact_email{
+    margin-top:50px; 
+    font-size:18px;
+}
+.header_contact_email a{
+    color: #87CEFF;
+}
+.fa.fa-envelope-o{
+    padding-right:5px;
+}
+.header_phone span{
+    font-size:1.2em;
+    padding-right:0.8em;
+}
+.header_phone strong{
+    font-weight: bold;
+}
+.header_phone a{
+    padding:5px 17px;
+    margin-top:25px;
+    margin-left: 0px;
+    font-size:15px;
+}
+.header_phone a.btn:hover{
+    box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, 0 10px 10px -9px #000
+}
+.header_phone a.btn:active{
+    box-shadow: inset rgb(221,189,33) 0 -1px 5px, inset 0 1px 5px rgb(221,189,33), #cc7729 0 0 0 1px;
+}
+.header_main{
+    width:%;
+    background: url(../img/menu_bg.jpg);
+    height:380px;
+}
+.baner{
+    width: 700px;
+    height: 280px;
+    margin: 200px auto 0 auto;
+    background:rgb(95, 179, 29);
+    position:relative;
+}
+.baner .left{
+    background:rgb(95, 179, 29);
+    float:left;
+    width:400px;
+    text-align: center;
+    
+}
+.baner:after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 250;    
+    border-top: 140px solid transparent;
+    border-left: 80px solid rgb(95, 179, 29);
+    border-bottom: 140px solid transparent;
+    width: 10px;
+    height: 0;
+    
+}
+.baner .left p{
+    display: inline-block;
+}
+.baner .right{
+    background:#ffbf00;
+    float:right;
+    display: block;
+    width:300px;
+    height: 280px;
+}
+span.f-line{
+    color:#fff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    display: inline-block;
+}
